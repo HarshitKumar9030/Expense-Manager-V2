@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Manager</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--Header-->
+    <div id="menu-open" class="menu-btn-icon">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="w-6 h-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z"
+        />
+      </svg>
+    </div>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Expense</span> Manager</h1>
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="flexed-parent">
+      <div class="seperator"></div>
+    </div>
+    <div class="flexed-parent">
+      <div class="pink-box">
+        <div class="box-content">
+          <h1>Expense Manager</h1>
+          <p>
+            Expense Manager is a web application that helps you to manage your
+            expenses.
+          </p>
+          <p>It is a simple and easy to use application.</p>
+          <p>It is a free application.</p>
+        </div>
+      </div>
+      <div class="time-box">
+        <div class="box-flexed-row">
+          <div class="box-content-white">IST: <span id="time"></span></div>
+        </div>
+      </div>
+    </div>
+
+    <!--Modals-->
+
+    <div id="menuModal" class="menu-modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Menu</h2>
+        </div>
+        <div class="modal-body">
+            <div class="container">
+                <div class="grid-4">
+                    <div class="box">
+                        <p>Export Data</p>
+                    </div>
+                    <div class="box">
+                        <p>Import Data</p>
+                        
+                    </div>
+                    <div class="box">
+                        <p>harshitkumar.tech</p>
+                    </div>
+                    <div class="box">
+                        <p>Github</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button id="closeMenu" class="close-btn">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <!--Scripts-->
+    <script src="js/script.js"></script>
+  </body>
+</html>
