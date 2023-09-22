@@ -43,7 +43,7 @@
     <div class="flexed-parent">
       <div class="pink-box">
         <div class="box-content">
-          <h1>Expense Manager</h1>
+          <h2>Expense Manager</h2>
           <p>
             Expense Manager is a web application that helps you to manage your
             expenses.
@@ -58,6 +58,85 @@
         </div>
       </div>
     </div>
+
+    <!--Main-->
+
+
+    <div class="main">
+        <!--Annual Salary , prompts, etc-->
+        <div class="container">
+            <div class="grid-2">
+                <div class="box-calc">
+                    <div class="box-content">
+                        <h2>Annual Salary</h2>
+                        <p>Enter your annual salary</p>
+                        <input id="annualSalary" type="number" placeholder="Enter your annual salary">
+                    </div>
+                </div>
+                <div class="box-calc">
+                    <div class="box-content">
+                        <h2>Monthly Salary</h2>
+                        <p>Enter your monthly salary</p>
+                        <input id="monthlySalary" type="number" placeholder="Enter your monthly salary">
+                    </div>
+                </div>
+            </div>
+
+            <!--Tables and stuff for credits and debits or expenses from the salary(not in boxes),  for both annual and monthy incomes.-->
+           <div class="expense-table">
+            <div class="toggle-a-m">
+                <button id="annual" class="toggle-btn">Annual</button>
+                <button id="monthly" class="toggle-btn">Monthly</button>
+            </div>
+            <table class="expense">
+                <thead>
+                    <tr>
+                        <th>Expense</th>
+                        <th>Amount</th>
+                        <th>Type</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Food</td>
+                        <td>1000</td>
+                        <td>Debit</td>
+                    </tr>
+                    <tr>
+                        <td>Food</td>
+                        <td>1000</td>
+                        <td>Debit</td>
+                    </tr>
+                    <tr>
+                        <td>Food</td>
+                        <td>1000</td>
+                        <td>Debit</td>
+                    </tr>
+                    <tr>
+                        <td>Food</td>
+                        <td>1000</td>
+                        <td>Debit</td>
+                    </tr>
+                    <tr>
+                        <td>Food</td>
+                        <td>1000</td>
+                        <td>Debit</td>
+                    </tr>
+                    <tr>
+                        <td>Food</td>
+                        <td>1000</td>
+                        <td>Debit</td>
+                    </tr>
+                    <tr>
+                        <td>Food</td>
+                        <td>1000</td>
+                        <td>Debit</td>
+                    </tr>
+            </table>
+           </div>
+
+            
+          </div>
 
     <!--Modals-->
 
@@ -77,7 +156,7 @@
                         
                     </div>
                     <div class="box">
-                        <p>harshitkumar.tech</p>
+                        <p>Currency: <input id="currency" type="text"></p>
                     </div>
                     <div class="box">
                         <p>Github</p>
@@ -88,10 +167,11 @@
         <div class="modal-footer">
           <button id="closeMenu" class="close-btn">Close</button>
         </div>
-      </div>
-    </div>
+            </div>
+          </div>
 
-    <!--Scripts-->
-    <script src="js/script.js"></script>
-  </body>
-</html>
+          <!--Scripts-->
+          <script src="js/script.js"></script>
+        </body>
+      </html>
+    
